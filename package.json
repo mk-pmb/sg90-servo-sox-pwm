@@ -1,0 +1,27 @@
+{ "name": "sg90-servo-sox-pwm",
+  "version": "0.0.1",
+  "description": "Use SoX (the Sound eXchnager) to generate a PWM (pulse width modulation) signal to control an SG90 micro servo motor.",
+  "keywords": [
+    "pwm",
+    "servo",
+    "sg90",
+    "sox"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/sg90-servo-sox-pwm/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/sg90-servo-sox-pwm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/sg90-servo-sox-pwm/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
