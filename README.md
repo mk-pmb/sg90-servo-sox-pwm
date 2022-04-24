@@ -34,6 +34,7 @@ Hardware Setup
     `name: <alsa_output.usb-GeneralPlus_USB_Audio_Device-00-Device_1.analog-stereo>`
 
 
+
 Theory
 ------
 
@@ -43,9 +44,22 @@ Theory
 * Angles according to data sheet:
   *   0 deg: 1 ms "on" =  5% duty.
   * 180 deg: 2 ms "on" = 10% duty.
+* My motor seems to have somewhat different specs. Maybe it's a knock-off?
+  With NodeMCU, I found:
+  *   0 deg: 2.626 ms "on" &asymp; 13.13% duty.
+  * 180 deg: 0.34  ms "on" &asymp;  1.7% duty.
 
 
 
+Experimental results
+--------------------
+
+* Sound was generated as expected.
+* Motor didn't react.
+  * Probably the audio output voltage is too low.
+    I should try with a MOSFET.
+  * Even with enouth output power, the signal might not be square enough.
+    I should check with an oscilloscope.
 
 
 
